@@ -1,11 +1,13 @@
 <template>
-  <div>
-    <h1>Reservations</h1>
-    <div v-for="reservation in reservations" :key="reservation.confirmationCode">
-      <nuxt-link :to="`/reservations/${reservation.confirmationCode}`">
-        {{ reservation.city }}
-      </nuxt-link>
-    </div>
+  <div class="container is-fluid">
+    <section class="section">
+      <h1>Reservations</h1>
+      <div v-for="reservation in reservations" :key="reservation.confirmationCode">
+        <nuxt-link :to="`/reservations/${reservation.confirmationCode}`">
+          {{ reservation.city }}
+        </nuxt-link>
+      </div>
+    </section>
   </div>
 </template>
 

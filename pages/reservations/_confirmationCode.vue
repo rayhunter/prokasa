@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <nuxt-child :reservation="reservation" />
+  <div class="container is-fluid">
+    <section class="section">
+      <nuxt-child :reservation="reservation" />
+    </section>
   </div>
 </template>
 
