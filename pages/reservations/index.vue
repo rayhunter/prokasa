@@ -7,6 +7,11 @@
           {{ reservation.city }}
         </nuxt-link>
       </div>
+      <nuxt-link :to="`../`">
+        <button class="button is-link is-small">
+          Home
+        </button>
+      </nuxt-link>
     </section>
   </div>
 </template>
