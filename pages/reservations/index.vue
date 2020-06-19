@@ -19,6 +19,9 @@ export default {
     return {
       reservations
     }
+  },
+  head: {
+    title: 'Prokasa: reservations list'
   }
 }
 </script>

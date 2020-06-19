@@ -14,6 +14,11 @@ export default {
     return {
       reservation
     }
+  },
+  head () {
+    return {
+      title: `Prokasa: reservation for ${this.reservation.city}`
+    }
   }
 }
 </script>
