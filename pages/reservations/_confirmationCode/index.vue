@@ -1,6 +1,15 @@
 <template>
   <div>
-    this is reservation {{ reservation.city }}
+    <p>this is reservation {{ reservation.city }}</p>
+    <dl>
+      <dt>Dates</dt>
+      <dd>{{ reservation.checkInDate }} - {{ reservation.checkOutDate }}</dd>
+      <dt>Confirmation#</dt>
+      <dd>{{ reservation.confirmationCode }}</dd>
+      <dt>Rating</dt>
+      <dd>{{ reservation.rating }}</dd>
+    </dl>
+    <img :src="reservation.cityImage"></img>
   </div>
 </template>
 
