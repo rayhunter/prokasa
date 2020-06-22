@@ -7,7 +7,7 @@
         </div>
         <div class="column is-narrow">
           <nuxt-link :to="`../reservations/`">
-            <button class="button is-link is-small">
+            <button class="button is-link">
               Search All Reservations
             </button>
           </nuxt-link>

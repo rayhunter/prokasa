@@ -34,7 +34,8 @@ export default {
   */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/pwa'
   ],
   /*
   ** Nuxt.js modules
@@ -43,8 +44,7 @@ export default {
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma',
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/axios'
   ],
   /*
   ** Axios module configuration
@@ -70,6 +70,9 @@ export default {
     extend (config, ctx) {
     }
   },
+  /*   router: {
+    middleware: 'test'
+  }, */
   server: {
     port: 2020
   }
