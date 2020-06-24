@@ -9,7 +9,7 @@
 <script>
 export default {
   async asyncData ({ $axios, params }) {
-    const response = await $axios.get(`/akasa-data/${params.confirmationCode}`)
+    const response = await $axios.get(`/reservations/${params.confirmationCode}`)
     const reservation = response.data
     return {
       reservation

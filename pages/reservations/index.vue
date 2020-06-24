@@ -34,7 +34,7 @@
 export default {
   // middleware: 'test',
   async asyncData ({ $axios }) {
-    const response = await $axios.get('/akasa-data')
+    const response = await $axios.get('/reservations')
     const reservations = response.data.reservations
     return {
       reservations
