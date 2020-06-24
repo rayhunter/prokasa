@@ -34,7 +34,15 @@ $ yarn start
 $ yarn generate
 ```
 
-## example mock data
+## steps to verify Progressive Web App
+
+after running 'yarn build' & 'yarn start', open URL in Chrome,
+click the vertical three dots in the upper right-hand corner of the browser,  and you should see a link to install 'Prokasa' locally. it should function just the same.
+
+
+## example mock data 
+## @ https://demo6894002.mockable.io/reservations
+
 [
   {
     confirmationCode: 'AAAAAA',
